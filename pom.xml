@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.rcc</groupId>
+    <artifactId>spark-vs-beam-test</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spark</module>
+        <module>beam</module>
+        <module>utils</module>
+    </modules>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <apache-beam.version>2.15.0</apache-beam.version>
+        <spark.version>2.4.4</spark.version>
+        <spark-scala.version>2.11</spark-scala.version>
+        <aspectjrt.version>1.8.9</aspectjrt.version>
+    </properties>
+
+
+</project>
